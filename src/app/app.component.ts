@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'my-shopper-app';
+  title = 'To Shop App';
+  public name ="Dipta";
 }

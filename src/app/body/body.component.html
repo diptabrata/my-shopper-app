@@ -1,0 +1,10 @@
+<div style="display: flex; flex-direction: column;">
+<div>
+    Welcome {{name}}
+</div>
+<div style="display: flex; flex-direction: column; width: 10vw;" >
+  <button (click)="onClick($event)">Greet</button>
+  <button (click)="greeting='WELCOME'">Greet</button>
+  {{greeting}}
+</div>
+</div>
